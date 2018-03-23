@@ -1,14 +1,14 @@
 {
-  "name": "clitools",
+  "name": "clisk",
   "version": "1.0.0",
   "description": "Various CLI tools for use on servers.",
   "main": "index.js",
-  "bin": { "clitools" : "./index.js" },
+  "bin": { "clisk" : "./index.js" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Steve Krenek",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "prompt": "1.0.0"
   }
