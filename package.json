@@ -1,6 +1,6 @@
 {
   "name": "clisk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Various CLI tools for use on servers.",
   "main": "index.js",
   "bin": { "clisk" : "./index.js" },
