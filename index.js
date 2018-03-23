@@ -14,8 +14,8 @@ prompt.get(['choice'], (err, result) => {
   switch (result.choice) {
     case '1':
       prompt.get(['username'], (err, ur) => {
-        childProc.execSync(`sudo useradd -G sudo,ubuntu,dev,ssh -m -s /bin/bash ${username}`);
-        childProc.execSync(`sudo ln -s /data /home/${username}/data`);
+        childProc.execSync(`sudo useradd -G sudo,ubuntu,dev,ssh -m -s /bin/bash ${ur.username}`);
+        childProc.execSync(`sudo ln -s /data /home/${ur.username}/data`);
       });
       break;
     default:
